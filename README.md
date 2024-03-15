@@ -42,6 +42,8 @@
 
 > * 김준형 : user, manage 로그인 확인 방법을 servlet filter에서 확인하도록 설정 [[Commit]](https://github.com/kimj0131/royal_project/commit/b9f155d03e6ee038dc20391c5d381a317744250e)
 
+> * 장호동 : JSP Include를 사용하여 각 페이지마다 Layout(header,footer,navibar)을 구현
+
 > * 김준형 : 관리자 페이지에 전체에 필요한 데이터(__알림수를 표시하기 위한 답변없는 Q&A리스트__)를 전달하기위해 spring intercepter 활용 [[Commit]](https://github.com/kimj0131/royal_project/commit/e2c1d534462ef27757f14a5147abf7fe4cbecea6)
 
 > * 장호동 : 공지사항 - 조건을 정해 검색할 수 있는 servie [[Commit]](https://github.com/kimj0131/royal_project/commit/8fe27658d6cb29ba94be1aeedb7b85d5b7de13e6)
@@ -54,11 +56,13 @@
 
 > * 김민주, 조현우 : 행사페이지 - 상단에 년/월을 선택하고 하단에는 선택한 년/월의 행사 목록을 비동기로 요청해 슬라이드 형식으로 출력하는 페이지 완성 [[Commit]](https://github.com/kimj0131/royal_project/commit/8c85ad7ef50ec330a74b6e1d53d0f037b9549a35)
 
-> * 황진솔 : 메인 페이지- 이미지데이터를 가져와 슬라이드 형식으로 구현 [[Commit]](https://github.com/kimj0131/royal_project/commit/610337a53065fe81f837647c619b85ed21def18f)
+> * 황진솔 : 메인 페이지 - 이미지데이터를 가져와 슬라이드 형식으로 구현 [[Commit]](https://github.com/kimj0131/royal_project/commit/610337a53065fe81f837647c619b85ed21def18f)
 
 > * 김태형 : 이메일 발송 기능 구현 (구글 API 사용), 이메일 발송기능 gmail 계정정보 properties 파일화
 
 > * 조현우 : 해설예약페이지 - 궁/날짜/회차를 선택하고 인원을 설정한 후 동의사항을 체크하면 해설예약을 할 수 있는 페이지 완성 [[Commit]](https://github.com/kimj0131/royal_project/commit/acbdc9238a40581477c47bca7f0aaa7e6bd643d7)
+
+> * 장호동 : 공지사항 -  DB에 저장되어있는 공지사항들을 불러와 한페이지에 10개씩만 볼 수 있게 페이징 구현
 ***
 
 ## 발생한 문제
